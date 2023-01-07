@@ -1,6 +1,21 @@
 *{
     margin: 0;
 }
+header{
+    /* margin-top: 0px; */
+    display: flex;
+   
+    background-image: url("banner2.png");
+
+background-size: cover;    height: 700px;
+   width: 100%;
+   
+}
+.im{
+    height: 300px;
+    width: 200px;
+    margin-top: 5px;
+}
 .btn{
     background-color: orangered;
     border: none;
@@ -14,21 +29,26 @@
     cursor: pointer;
 
 }
-.im{
-    height: 300px;
-    width: 200px;
-    margin-top: 5px;
+.btn1{
+    height: 30px;
+    width: auto;
+    padding: 5px;
+    background-color: orangered;
+    font-size: 18px;
+    border-radius: 5px;
+    
+    border: none;
 }
-header{
-    /* margin-top: 0px; */
-    display: flex;
-   
-    background-image: url("banner2.png");
+.btn2{
+    background-color:orangered;
+    border: none;
+    margin-top: 10px;
+    font-size: 20px;
+    height: 30px;
+    width: auto;
+    border-radius: 5px;
+}
 
-background-size: cover;    height: 700px;
-   width: 100%;
-   
-}
 main{
     height: 800px;
     width: 100%;
@@ -42,6 +62,11 @@ main{
     padding-right: 10px;
     text-align: right;
     }
+    .text2{
+        font-size: 18px;
+        margin-top: 5px;
+        margin-left: 150px;
+    }
     .discribe{
         margin-top: 20px;
         font-size: 18px;
@@ -53,11 +78,7 @@ main{
         margin-top: 10px;
        
         }
-    .text2{
-        font-size: 18px;
-        margin-top: 5px;
-        margin-left: 150px;
-    }
+    
     .ul1{
         margin-top: 10px;
     }
@@ -114,30 +135,9 @@ main{
   
 
 }
-
-
-
-.btn1{
-    height: 30px;
-    width: auto;
-    padding: 5px;
-    background-color: orangered;
-    font-size: 18px;
-    border-radius: 5px;
-    
-    border: none;
-}
 .last-icons{
     display: flex;
     align-items: center;
     margin-left: 200px;
 }
-.btn2{
-    background-color:orangered;
-    border: none;
-    margin-top: 10px;
-    font-size: 20px;
-    height: 30px;
-    width: auto;
-    border-radius: 5px;
-}
+
