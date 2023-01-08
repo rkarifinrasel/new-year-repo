@@ -61,6 +61,8 @@ main{
     margin-bottom: 100px;
     padding-right: 10px;
     text-align: right;
+    
+
     }
     .text2{
         font-size: 18px;
@@ -98,7 +100,7 @@ main{
         margin-top: 5px;
     }
     .indor{
-        background-image: url("images/watch.png");
+        
         background-size: cover;
         height: 150px;
         width: 100%;
@@ -108,6 +110,7 @@ main{
         margin-bottom: 250px;
        padding: 70px;
        backface-visibility: visible;
+ background-image: url("images/watch.png");
     }
     .positive{
         margin-top: 10px;
@@ -126,7 +129,6 @@ main{
         width: 100%;
         margin-top: 40px;
     }
-    
     
 .last{
     display: flex;
